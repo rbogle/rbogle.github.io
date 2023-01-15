@@ -1,6 +1,6 @@
 baseURL: '/'
 languageCode: 'en-us'
-title: 'rian bogle'
+title: 'Rian Bogle'
 theme: hugo-profile
 
 outputs:
@@ -53,8 +53,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Rian Bogle"
+  description: 
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -116,9 +116,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    title: "Rian."
+    subtitle: "I build things with code on the cloud"
+    content: "A passionate technologist. I help organziations transform and accelerate."
     image: /images/hero.svg
     button:
       enable: true
