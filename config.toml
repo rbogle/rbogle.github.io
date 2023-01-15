@@ -47,15 +47,11 @@ name = "Home"
 url = "/"
 weight = -100
 [[menu.main]]
-identifier = "archive"
-name = "Archive"
-url = "/archive/"
+identifier = "Posts"
+name = "Posts"
+url = "/posts/"
 weight = 10
-[[menu.main]]
-identifier = "guide"
-name = "Guide"
-url = "/series/themes-guide/"
-weight = 20
+
 [[menu.main]]
 identifier = "about"
 name = "About"
@@ -64,13 +60,13 @@ weight = 50
 [[menu.main]]
 identifier = "github"
 name = "Github"
-url = "https://github.com/roninro/hugo-theme-puppet/"
+url = "https://github.com/rbogle"
 weight = 100
 
 
 [params]
-author = "Puppet"
-description = "A simple and clean theme for Hugo"
+author = "Rian Bogle"
+description = "Blog about cloud, infrastructure, and ops"
 keywords = "blog,developer,personal"
 img_home = "img/home-bg.jpg"
 img_404 = "img/404-bg.jpg"
@@ -85,39 +81,11 @@ enable = true
 gravatarEmail = ""
 # Overwritten by your gravatar image if `gravatarEmail` is filled
 avatar = "img/home-bg.jpg"
-bio = "a personal website"
+bio = "cloud,ops,transformation"
 
 [params.social]
-twitter = "johndoe"
-facebook = "johndoe"
-zhihu = "johndoe"
-weibo = "johndoe"
-github = "johndoe"
-gitlab = "johndoe"
-linkedin = "johndoe"
+github = "rbogle"
+linkedin = "rianbogle"
 rss = true
-[params.social.mastodon]
-weight = 56
-icon = "fab fa-mastodon"
-format = "https://mastodon.social/%v"
-id = "johndoe"
-url = ""
 
-[[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
 
-[[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
-
-# See https://giscus.app/
-[params.giscus]
-enable = true
-repo = "roninro/hugo-theme-puppet"
-repo_id = "R_kgDOHuvyhw"
-category = "General"
-category_id = "DIC_kwDOHuvyh84CQjDo"
-input_position = "top"
-theme = "light_tritanopia"
-lang = "en"
