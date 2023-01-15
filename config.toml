@@ -1,6 +1,6 @@
 
 baseURL = ""
-title = "Rian Bogle3"
+title = "Rian Bogle"
 
 theme = "puppet"
 
@@ -46,10 +46,11 @@ identifier = "home"
 name = "Home"
 url = "/"
 weight = -100
+
 [[menu.main]]
-identifier = "Posts"
+identifier = "Archive"
 name = "Posts"
-url = "/posts/"
+url = "/archive/"
 weight = 10
 
 [[menu.main]]
@@ -57,6 +58,7 @@ identifier = "about"
 name = "About"
 url = "/about/"
 weight = 50
+
 [[menu.main]]
 identifier = "github"
 name = "Github"
@@ -67,7 +69,7 @@ weight = 100
 [params]
 author = "Rian Bogle"
 description = "Blog about cloud, infrastructure, and ops"
-keywords = "blog,developer,personal"
+keywords = "blog,engineer,personal"
 img_home = "img/home-bg.jpg"
 img_404 = "img/404-bg.jpg"
 
@@ -78,9 +80,9 @@ custom_css = [] # ["css/custom.css"]  Add your file to assets folder  [assets/cs
 
 [params.sidebar]
 enable = true
-gravatarEmail = ""
+gravatarEmail = "rian.bogle@ncendo.com"
 # Overwritten by your gravatar image if `gravatarEmail` is filled
-avatar = "img/home-bg.jpg"
+# avatar = "img/home-bg.jpg"
 bio = "cloud,ops,transformation"
 
 [params.social]

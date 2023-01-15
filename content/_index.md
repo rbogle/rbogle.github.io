@@ -1,5 +1,5 @@
 +++
-author = "Hugo Authors"
+author = "Rian Bogle"
 +++
 
 Home Index Content
