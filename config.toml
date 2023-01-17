@@ -65,7 +65,8 @@ weight = 100
 
 [params]
 author = "Rian Bogle"
-description = "Blog about cloud, infrastructure, and ops"
+title = "foobar"
+description = "Blog about working on cloud, infrastructure, and ops"
 keywords = "blog,engineer,personal"
 img_home = "img/home-bg.jpg"
 img_404 = "img/404-bg.jpg"
@@ -84,7 +85,7 @@ bio = "cloud,ops,transformation"
 
 [params.social]
 github = "rbogle"
-linkedin = "rianbogle"
+linkedin = "rian-bogle"
 rss = true
 
 
