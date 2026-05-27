@@ -1,0 +1,94 @@
+baseURL = "https://rianbogle.com/"
+languageCode = "en-us"
+title = "Rian Bogle"
+theme = ["PaperMod"]
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Rian Bogle"
+  description = "Platform engineering for the physical world. Writing about robotics infrastructure, cloud architecture, and engineering leadership."
+  keywords = ["platform engineering", "robotics", "kubernetes", "infrastructure", "engineering leadership", "security"]
+  author = "Rian Bogle"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "Platform engineering for the physical world."
+    Content = """
+I'm Rian Bogle — engineering leader at [Agility Robotics](https://agilityrobotics.com) \
+working at the intersection of robotics infrastructure, platform engineering, and security. \
+Writing about what I'm learning and building: Kubernetes on hardware that walks, \
+cloud architecture at scale, offline identity systems, and what it takes to run \
+engineering teams building things that haven't been built before.
+"""
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/rianbogle/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/rbogle"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30

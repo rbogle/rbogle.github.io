@@ -1,4 +1,3 @@
-+++
-title = "Posts"
-author = "Rian Bogle"
-+++
+---
+title: "Posts"
+---
